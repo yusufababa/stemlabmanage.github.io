@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    width: 750px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    background-color:  rgb(245, 136, 136);
+    border-radius: 50px;
+}
+input{
+    border: 1px solid black;
+    width: 120px;
+    height: 30px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+#container p{
+    font-size: 25px;
+    font-weight: 500;
+    padding: 10px;
+}
+#container button{
+    background-color: white;
+    color: black;
+    width: 100px;
+    height: 30px;
+    margin-top: 50px;
+    border-radius: 50px;
+}
+#container button:hover{
+    background-color:  rgb(24, 22, 22);
+}
+footer{
+    background-color: rgb(24, 22, 22);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    align-items: center;
+    height: 200px;
+    margin-top: 100px;
+}
+.icon{
+    width: 30%;
+}
+.manage img{
+    width: 60%;
+}
+.media{
+    display: flex;
+    gap: 50px;
+    padding-top: 30px;
+}
+
+.lis1{
+}
+.lis1 a{
+    color: white;
+    font-size: 20px;
+}
+.lis1 a:hover{
+    color:  rgb(245, 136, 136);
+} 
+form{
+    padding-bottom: 20px;
+}
+form button{
+    width: 200px;
+    height: 40px;
+}
+form button{
+    width: 70px;
+    background-color:  rgb(245, 136, 136);
+    color: black;
+}
+form button:hover{
+    background-color:  rgba(245, 136, 136, 0.733);
+}
+@media (max-width: 760px){
+    footer{
+        background-color: rgb(24, 22, 22);
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        padding-top: 20px;
+        align-items: center;
+        width: 100%;
+    }
+    .icon{
+        width: 30%;
+    }
+    .manage img{
+        width: 100%;
+    }
+    .media{
+        display: flex;
+        padding-top: 30px;
+    }
+    
+    .lis1{
+        display: none;
+    }
+    .lis1 a{
+        color: white;
+        font-size: 20px;
+    }
+    .lis1 a:hover{
+        color:  rgb(245, 136, 136);
+    } 
+    form{
+        padding-bottom: 20px;
+    }
+    form button{
+        width: 200px;
+        height: 40px;
+    }
+    form button{
+        width: 70px;
+        background-color:  rgb(245, 136, 136);
+        color: black;
+    }
+    form button:hover{
+        background-color:  rgba(245, 136, 136, 0.733);
+    }
+}
+

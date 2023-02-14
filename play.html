@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>play</title>
+    <link href="/dist/output.css" rel="stylesheet">
+    <a href="https://storyset.com/online"></a>
+    <link rel="stylesheet" href="/src/play.css">
+</head>
+<body>
+      <!-- Navbar -->
+  <nav class="relative container mt-5">
+    <!-- Flex container -->
+    <div class="flex justify-between items-center">
+      <!-- Logo -->
+      <div class="lg:ml-56">
+        <a href="/src/index.html"><img src="/img/logo.svg" alt=""></a>
+      </div>
+      <!-- Menu -->
+      <div class="hidden space-x-12 md:flex">
+        <a href="/src/learn.html" class="hover:text-blue-300 text-xl">Learn</a>
+        <a href="/src/connect.html" class="hover:text-blue-300 text-xl">Connect</a>
+        <a href="/src/play.css" class="hover:text-blue-300 text-xl">Play</a>
+        <a href="#" class="hover:text-blue-300 text-xl">Gallery</a>
+      </div>
+      <!-- Button -->
+      <a href="#" class="hidden p-3 px-6 pt-2 text-white bg-red-400 rounded-full baseline hover:bg-red-300 mr-40 md:block">Get started</a>
+    </div>
+    </nav>
+
+        <!-- Hero section -->
+  <section>
+    <!-- Flex container -->
+    <div class="container flex flex-col-reverse items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0 md:flex-row md:flex">
+      <!-- Left item -->
+      <div class="flex flex-col mb-96 spce-y-0 md:w-1/2">
+        <h1 class="max-w-md text-bold text-4xl font-bold text-center md:text-5xl md:text-left">
+          Bringing stemlab interns together to be the best
+        </h1>
+        <p class="max-w-sm text-center text-gray-500 mt-5 md:text-left">
+          Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view.
+        </p>
+        <div class="flex justify-center md:justify-start">
+          <a href="#" class="p-3 px-6 pt-2 mt-10 text-white bg-red-400 rounded-full baseline hover:bg-red-300 ">Get started</a>
+        </div>
+      </div>
+        <div class="w-full md:w-1/2 w">
+          <img src="/img/gaming-animate.svg" alt="Intern svg">
+        </div>   
+    </div>
+  </section>
+  <!-- The game -->
+  <section class="game">
+  <div id="container">
+    <p>Guess a number between 1 - 100 and earn!</p>
+    <p id="outputtext">Enter the number below</p>
+    <form action="">
+        <input type="text" id="userinput" placeholder="guess and win">
+    </form>
+    <button id="btn">Guess</button>
+    </div>
+    </section>
+
+    <!-- My footer -->
+  <footer class="">
+    <div class="icon">
+      <div class="manage">
+        <img src="/img/logo-white.svg" alt="">
+      </div>
+      <div class="media">
+        <a href=""><img src="/img/icon-facebook.svg" alt=""></a>
+        <a href=""><img src="/img/icon-instagram.svg" alt=""></a>
+        <a href=""><img src="/img/icon-youtube.svg" alt=""></a>
+        <a href=""><img src="/img/icon-twitter.svg" alt=""></a>
+      </div>
+    </div>
+    <div class="lis1">
+      <ul>
+        <a href="">Learn</a><br>
+        <a href="">Connect</a><br>
+        <a href="">Play</a><br>
+        <a href="">Gallery</a><br>
+      </ul>
+    </div>
+    <div class="lis1">
+      <ul>
+        <a href="">Careers</a><br>
+        <a href="">Team</a><br>
+        <a href="">Policy</a><br>
+      </ul>
+    </div>
+    <div class="flex flex-col justify-between">
+      <form>
+        <div class="flex space-x-3">
+          <input type="text" class="flex-1 px-4 rounded-full focus:outline-none" placeholder="Updated in your inbox">
+          <button class="px-6 py-2 text-black rounded-full bg-brightRed hover:bg-brightRedLight focus:outline-none">
+            Go
+          </button>
+        </div>
+      </form>
+      <div class="hidden text-white md:block">
+        Copyright &copy; 2022, All Rights Reserved
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="/src/play.js"></script>
+</body>
+</html>
